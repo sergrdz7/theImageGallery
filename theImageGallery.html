@@ -5,33 +5,32 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>The Image Gallery</title>
-        <!-- Css Files -->
-        <link href="theImageGallery.css"  rel="stylesheet" type="text/css" link>
+        
     
         <!-- Bootstrap CDN-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <!-- Css Files -->
+        <link href="theImageGallery.css"  rel="stylesheet" type="text/css" link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css";
         <!-- Jquery CDN-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </head>
     <body>
         
-    <nav class="navbar navbar-toggleable-sm fixed-top navbar-inverse bg-primary">
+    <nav id="top" class="navbar navbar-toggleable-sm fixed-top navbar-inverse">
         <div class="container">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">SERG'S IMGS</a>
+        <a class="navbar-brand hidden-sm" href="#">SERG'S IMGS</a>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                <a class="nav-link" href="top">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link" href="photos">Photos</a>
               </li>
             </ul>
           </div>
@@ -39,9 +38,9 @@
     </nav>
     
         
-    <div class="container">
+    <div id="photos" class="container">
         <div class="jumbotron">
-            <h1>The Image Gallery</h1>
+            <h1><i class="fa fa-camera" aria-hidden="true"></i> The Image Gallery</h1>
             <p>Bunch of pretty cool images!</p>
         </div>
 <!--        <div class="container">-->
@@ -50,28 +49,28 @@
                         <img class="img-thumbnail" src="images/brina-blum-156977.jpg">
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                        <img class="img-thumbnail" src="images/brina-blum-156977.jpg">
+                        <img class="img-thumbnail" src="images/chris-becker-52648.jpg">
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                        <img class="img-thumbnail" src="images/brina-blum-156977.jpg">
+                        <img class="img-thumbnail" src="images/harry-sandhu-209807.jpg">
                 </div>
                 <div class="col-lg-4 col-sm-6 ">
-                        <img class="img-thumbnail" src="images/brina-blum-156977.jpg">
+                        <img class="img-thumbnail" src="images/igor-ovsyannykov-219666.jpg">
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                        <img class="img-thumbnail" src="images/brina-blum-156977.jpg">
+                        <img class="img-thumbnail" src="images/jeff-sheldon-3231.jpg">
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                        <img class="img-thumbnail" src="images/brina-blum-156977.jpg">
+                        <img class="img-thumbnail" src="images/lewis-ngugi-186309.jpg">
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                        <img class="img-thumbnail" src="images/brina-blum-156977.jpg">
+                        <img class="img-thumbnail" src="images/markus-spiske-187777.jpg">
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                        <img class="img-thumbnail" src="images/brina-blum-156977.jpg">
+                        <img class="img-thumbnail" src="images/luis-llerena-16892.jpg">
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                        <img class="img-thumbnail" src="images/brina-blum-156977.jpg">
+                        <img class="img-thumbnail" src="images/wojtek-witkowski-275.jpg">
                 </div>
             </div>
 <!--        </div>end of image container-->

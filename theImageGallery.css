@@ -1,0 +1,29 @@
+body{
+    padding-top: 70px; 
+    padding-bottom: 70px; 
+}
+.jumbotron{
+    color: #6a1010;
+    background-color: #e8d7d7;
+}
+.navbar-inverse{
+    background-color: #6a1010;  
+
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+    color: white; 
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    position:relative; 
+    float: left;
+    
+}
+
